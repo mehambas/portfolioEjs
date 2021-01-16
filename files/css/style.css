@@ -9,6 +9,7 @@
 body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
 }
 
 .clearfix::after{
@@ -39,7 +40,7 @@ li{
 
 
 .container-navbar{
-    height: 10vh;
+
     background-color: #018e96;
     text-align: right;
     box-shadow: 0 4px 0 rgba(0, 0, 0, 0.4);
@@ -54,17 +55,21 @@ li{
 
 /* schowcase */
 
+#logo{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
 .logo{
     width: 20rem;
     float: left;
-    margin-left: 38vw;
-    
 }
 
 
 
 .container-showcase{
-    height: 90vh;
+    height: 80vh;
     background-color: #222831;
     text-align: center;
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
@@ -107,7 +112,7 @@ h1{
 
 .container-projects{
     text-align: center;
-    height: 180vh;
+    height: 150vh;
     background-color: #903749;
     background-image: linear-gradient(62deg, #8d5863 0%, #802a3b 100%);
 }
@@ -188,7 +193,7 @@ figcaption{
 /* contact */
 
 .container-contact{
-    height: 75vh;
+    height: 80vh;
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
 
@@ -222,8 +227,8 @@ figcaption{
 }
 
 #social-media-groups ul{
-    margin-top: 6rem;
-    margin-left: 13rem;
+    margin: 6rem auto;
+    text-align: center;
     
 }
 
